@@ -1,0 +1,88 @@
+{
+  "generado_en_utc": "2026-11-19T06:13:25.075611+00:00",
+  "registros_catalogo": 231,
+  "por_origen": {
+    "ix_sin_sede": 2,
+    "peeringdb": 49,
+    "telegeography": 19,
+    "topologia": 161
+  },
+  "por_categoria": {
+    "aterrizaje_submarino": 19,
+    "instalacion_alojamiento_interconexion": 49,
+    "ixp_pit": 19,
+    "ramificacion_troncal_modelada": 161
+  },
+  "coordenadas_disponibles": 225,
+  "pendientes_asociacion": 6,
+  "registros_evaluados": 224,
+  "accesos_distintos_candidatos": 189,
+  "excluidos_georreferenciados": [
+    {
+      "clave": "landing:tortel-chile",
+      "nombre": "Aterrizaje de referencia - Tortel",
+      "motivo_evaluacion": "Referencia externa de Tortel: la asociacion de aproximadamente 94 km carece de un tramo documentado en este catastro"
+    }
+  ],
+  "pendientes": [
+    {
+      "clave": "pdb_ix_pendiente:3842",
+      "nombre": "ixFabric - Valdivia",
+      "localidad": "Valdivia",
+      "fuentes": [
+        "https://www.peeringdb.com/ix/3842"
+      ]
+    },
+    {
+      "clave": "pdb_ix_pendiente:3937",
+      "nombre": "ixFabric - Santiago",
+      "localidad": "Santiago",
+      "fuentes": [
+        "https://www.peeringdb.com/ix/3937"
+      ]
+    },
+    {
+      "clave": "pdb_fac:12699",
+      "nombre": "METROWAN TELECOM Santiago",
+      "localidad": "Santiago",
+      "fuentes": [
+        "https://www.peeringdb.com/fac/12699"
+      ]
+    },
+    {
+      "clave": "pdb_fac:14742",
+      "nombre": "San Esteban SDC1",
+      "localidad": "San Esteban",
+      "fuentes": [
+        "https://www.peeringdb.com/fac/14742"
+      ]
+    },
+    {
+      "clave": "pdb_fac:8554",
+      "nombre": "Telxius Valparaiso DC",
+      "localidad": "Valparaiso",
+      "fuentes": [
+        "https://www.peeringdb.com/fac/8554"
+      ]
+    },
+    {
+      "clave": "pdb_fac:9087",
+      "nombre": "Telxius Arica DC",
+      "localidad": "Arica",
+      "fuentes": [
+        "https://www.peeringdb.com/fac/9087"
+      ]
+    }
+  ],
+  "fuente_aterrizajes": {
+    "archivo": "aterrizajes_chile.geojson",
+    "sha256": "9d302e4157c8401446d7dd4067ec77f50a2038855d4a17112a2c232818ca4d13",
+    "fuente": "https://www.submarinecablemap.com/api/v3/landing-point/landing-point-geo.json",
+    "registros": 19,
+    "atribucion": "TeleGeography, Submarine Cable Map",
+    "verificacion_operador_arica_valparaiso": "https://telxius.com/en/mistral-2/",
+    "definicion_pit": "https://www.subtel.gob.cl/images/stories/articles/subtel/asocfile/req_tec_trafico.pdf",
+    "nota_temporal": "Catalogo complementario consultado en 2026, aplicado al catastro historico de Yafun en un escenario simulado."
+  },
+  "alcance": "Inventario y asociaciones geograficas; el conjunto critico final debe integrar este catalogo y justificar la unidad de conteo."
+}

@@ -1,0 +1,19 @@
+{
+  "verificados": [
+    {
+      "clave": "pdb_fac:13382",
+      "nombre_esperado": "ODATA DC ST01",
+      "latitud": -33.3066668,
+      "longitud": -70.72767259999999,
+      "fuente": "https://odatadc.com/es/localidades/",
+      "evidencia": {
+        "id_localizador": 8615,
+        "titulo": "ODATA DC ST01",
+        "direccion": "AV. Pdte. Eduardo Frei Montalva 17400, Lampa, Región Metropolitana, Chile",
+        "coordenadas_publicadas": "-33.3066668,-70.72767259999999"
+      },
+      "precision": "Localizador de campus publicado por ODATA; sin exactitud declarada ni levantamiento de acceso de fibra",
+      "consultado_el": "2026-11-19"
+    }
+  ]
+}

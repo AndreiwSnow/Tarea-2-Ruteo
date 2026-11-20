@@ -1,0 +1,88 @@
+{
+  "sismo": {
+    "id": "official20100227063411530_30",
+    "magnitud": 8.8,
+    "profundidad_km": 22.9,
+    "longitud": -72.898,
+    "latitud": -36.122
+  },
+  "radio_maximo_km": 250.0,
+  "radio_escenario_km": 125.0,
+  "nodos_clave": 189,
+  "pares_posibles": 17766,
+  "pares_conectados_antes": 1163,
+  "pares_conectados_escenario": 720,
+  "attr_antes": 0.06546211865360801,
+  "attr_escenario": 0.040526849037487336,
+  "attr_despues_esperado": 0.047064171465996854,
+  "diferencia_attr_esperado": -0.01839794718761116,
+  "variacion_porcentual_attr": -28.104723107059314,
+  "enlaces_base_probabilidad_cero": 22574,
+  "fuente_escala": "https://earthquake.usgs.gov/earthquakes/eventpage/official20100227063411530_30/executive",
+  "longitud_ruptura_referencia_km": 500.0,
+  "origen_radio": "Mitad de una ruptura de referencia de 500 km; aproximacion geometrica",
+  "enlaces_total": 22574,
+  "enlaces_con_probabilidad_positiva": 5876,
+  "enlaces_fallados_escenario": 2992,
+  "probabilidades_sql": "/home/isi/tarea-ruteo/sql/03_probabilidades_falla.sql",
+  "topologia": {
+    "enlaces": 22574,
+    "sin_topologia": 0,
+    "probabilidad_inicial_cero": 22574,
+    "sinteticos": 0,
+    "longitud_total_km": 10312.761058050768,
+    "vertices": 22686,
+    "componentes": 134,
+    "tolerancia_grados": 1e-08,
+    "pgr_createtopology": "OK"
+  },
+  "main_sql": "/home/isi/tarea-ruteo/main.sql",
+  "generado_en_utc": "2026-11-19T06:13:29.638541+00:00",
+  "componentes_iniciales": 134,
+  "instalaciones_total": 49,
+  "instalaciones_representadas": 45,
+  "instalaciones_sin_coordenadas": 4,
+  "registros_catalogo": 231,
+  "registros_evaluados": 224,
+  "referencias_sin_coordenadas": 6,
+  "referencias_fuera_alcance": [
+    {
+      "id": "landing:tortel-chile",
+      "nombre": "Aterrizaje de referencia - Tortel",
+      "motivo": "Referencia externa de Tortel: la asociacion de aproximadamente 94 km carece de un tramo documentado en este catastro"
+    },
+    {
+      "id": "pdb_fac:12699",
+      "nombre": "METROWAN TELECOM Santiago",
+      "motivo": "Sin ubicacion fisica georreferenciada verificable en las fuentes"
+    },
+    {
+      "id": "pdb_fac:14742",
+      "nombre": "San Esteban SDC1",
+      "motivo": "Sin ubicacion fisica georreferenciada verificable en las fuentes"
+    },
+    {
+      "id": "pdb_fac:8554",
+      "nombre": "Telxius Valparaiso DC",
+      "motivo": "Sin ubicacion fisica georreferenciada verificable en las fuentes"
+    },
+    {
+      "id": "pdb_fac:9087",
+      "nombre": "Telxius Arica DC",
+      "motivo": "Sin ubicacion fisica georreferenciada verificable en las fuentes"
+    },
+    {
+      "id": "pdb_ix_pendiente:3842",
+      "nombre": "ixFabric - Valdivia",
+      "motivo": "Sin ubicacion fisica georreferenciada verificable en las fuentes"
+    },
+    {
+      "id": "pdb_ix_pendiente:3937",
+      "nombre": "ixFabric - Santiago",
+      "motivo": "Sin ubicacion fisica georreferenciada verificable en las fuentes"
+    }
+  ],
+  "modelo": "Disco regional con R uniforme entre 0 y R_max; epicentro fijo; fallas correlacionadas",
+  "fuente_modelo": "https://doi.org/10.1109/JSAC.2021.3064652",
+  "alcance": "Conectividad entre accesos aproximados del catastro; danos simulados."
+}

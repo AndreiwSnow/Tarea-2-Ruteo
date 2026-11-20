@@ -1,0 +1,10 @@
+{
+  "archivo": "aterrizajes_chile.geojson",
+  "sha256": "9d302e4157c8401446d7dd4067ec77f50a2038855d4a17112a2c232818ca4d13",
+  "fuente": "https://www.submarinecablemap.com/api/v3/landing-point/landing-point-geo.json",
+  "registros": 19,
+  "atribucion": "TeleGeography, Submarine Cable Map",
+  "verificacion_operador_arica_valparaiso": "https://telxius.com/en/mistral-2/",
+  "definicion_pit": "https://www.subtel.gob.cl/images/stories/articles/subtel/asocfile/req_tec_trafico.pdf",
+  "nota_temporal": "Catalogo complementario consultado en 2026, aplicado al catastro historico de Yafun en un escenario simulado."
+}

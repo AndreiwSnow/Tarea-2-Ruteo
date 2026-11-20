@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "id": 699,
+      "name": "NetIX",
+      "city": "Sofia",
+      "country": "BG",
+      "status": "ok",
+      "updated": "2024-03-18T10:02:51Z"
+    },
+    {
+      "id": 3312,
+      "name": "JumboIX Peru",
+      "city": "Lima",
+      "country": "PE",
+      "status": "ok",
+      "updated": "2023-03-12T09:52:22Z"
+    }
+  ]
+}
