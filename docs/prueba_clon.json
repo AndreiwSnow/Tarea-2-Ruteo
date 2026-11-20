@@ -1,0 +1,24 @@
+{
+  "commit_ejecutado": "3b4176e29d077227f53008b8c93fbb3c686724b7",
+  "base_creada_por_main": "ruteo_clon_02f3ecc15c81",
+  "carga_desde_main_sql": true,
+  "comando": "python3 main.py --abrir",
+  "estado_http": 200,
+  "bytes_html_servidos": 11087965,
+  "tolerancia_absoluta_attr": 1e-12,
+  "resultado": {
+    "nodos_clave": 189,
+    "pares_posibles": 17766,
+    "pares_conectados_antes": 1163,
+    "pares_conectados_escenario": 720,
+    "enlaces_total": 22574,
+    "enlaces_con_probabilidad_positiva": 5876,
+    "enlaces_fallados_escenario": 2992,
+    "componentes_iniciales": 134,
+    "registros_catalogo": 231,
+    "registros_evaluados": 224,
+    "attr_antes": 0.06546211865360801,
+    "attr_escenario": 0.040526849037487336,
+    "attr_despues_esperado": 0.047064171465996854
+  }
+}
