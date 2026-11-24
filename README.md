@@ -24,7 +24,7 @@ La configuración local usa el contenedor `ruteo-db`, el puerto `5433` y la base
 | Escenario de 125,00 km | 0,040526849 | 720 |
 | Posterior esperado | 0,047064171 | Esperanza sobre radios |
 
-El denominador se mantiene en 17.766 pares. El modelo, las fuentes, los supuestos y el contraste histórico están en el [informe](INFORME.md). El [informe imprimible](INFORME.html) se abre en un navegador y se puede guardar como PDF.
+El denominador se mantiene en 17.766 pares. El modelo, las fuentes, los supuestos y el contraste histórico están en el [informe](INFORME.md).
 
 ## Archivos y dependencias
 
