@@ -1,4 +1,4 @@
-# Conectividad de la fibra chilena ante el sismo del Maule
+# Tarea 2 Algoritmos de ruteo
 
 Este repositorio evalúa 189 accesos clave sobre 22.574 segmentos del catastro Yafún. La tabla de probabilidades y el grafo completo se distribuyen en `main.sql`.
 
