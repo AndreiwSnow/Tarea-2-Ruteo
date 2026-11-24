@@ -354,7 +354,7 @@ def guardar_evidencia(filas, metadatos, salida=BASE / "resultados"):
         ],
         "pendientes": [{k: f[k] for k in ["clave", "nombre", "localidad", "fuentes"]} for f in pendientes],
         "fuente_aterrizajes": metadatos,
-        "alcance": "Inventario y asociaciones geograficas; el conjunto critico final debe integrar este catalogo y justificar la unidad de conteo.",
+        "alcance": "Inventario incorporado al conjunto final de accesos clave mediante sql/04_nodos_finales.sql. Se documentan asociaciones geograficas aproximadas y exclusiones justificadas.",
     }
     escribir(salida / "diagnostico_catalogo.json", json.dumps(resumen, ensure_ascii=False, indent=2) + "\n")
     return resumen

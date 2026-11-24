@@ -1,10 +1,13 @@
-"""Carga la infraestructura, calcula ATTR y genera un mapa Leaflet con Folium.
+"""Reconstruye la infraestructura, calcula ATTR y genera un mapa Leaflet.
 
-Uso sobre la BD que ya existe:
-    python main.py --abrir
+Ejecucion reproducible desde un clon limpio:
+    python3 main.py --abrir
 
-Carga reproducible desde los archivos de datos en una BD vacia ya creada:
-    python main.py --cargar --abrir
+El programa prepara PostgreSQL mediante Docker, restaura main.sql
+si faltan las fuentes y ejecuta el flujo completo.
+
+Sin --abrir genera los resultados y termina.
+La opcion --cargar se mantiene por compatibilidad y no es obligatoria.
 
 Los parametros del modelo son supuestos del escenario academico.
 """

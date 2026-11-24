@@ -84,5 +84,5 @@
     "definicion_pit": "https://www.subtel.gob.cl/images/stories/articles/subtel/asocfile/req_tec_trafico.pdf",
     "nota_temporal": "Catalogo complementario consultado en 2026, aplicado al catastro historico de Yafun en un escenario simulado."
   },
-  "alcance": "Inventario y asociaciones geograficas; el conjunto critico final debe integrar este catalogo y justificar la unidad de conteo."
+  "alcance": "Inventario incorporado al conjunto final de accesos clave mediante sql/04_nodos_finales.sql. Se documentan asociaciones geograficas aproximadas y exclusiones justificadas."
 }

@@ -1,3 +1,10 @@
+-- ETAPA PRELIMINAR DEL PROYECTO.
+-- Conservada como antecedente metodologico.
+-- La evaluacion definitiva utiliza sql/04_nodos_finales.sql,
+-- con 189 accesos y un ATTR inicial de 0.065462119.
+-- No ejecutar aisladamente este script para obtener
+-- los resultados finales de la entrega.
+
 -- Referencias actuales de PeeringDB sobre el catastro fisico Yafun.
 -- Cada instalacion con coordenadas se representa mediante un punto de acceso:
 -- el extremo mas cercano del enlace de fibra mas cercano a su ubicacion.

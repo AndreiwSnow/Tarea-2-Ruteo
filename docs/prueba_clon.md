@@ -24,3 +24,16 @@ Se ejecutó `python3 main.py`, que restauró `main.sql`, reconstruyó la topolog
 Se ejecutó `verificar_restauracion.py`, obteniendo el mensaje `RESTAURACIÓN VERIFICADA`.
 
 La prueba confirmó que la corrección de `infra_bd.py` permite crear el contenedor en el entorno probado y reproducir los resultados publicados. La evidencia anterior se conserva como registro histórico de la versión previa.
+
+## Relacion con la evidencia automatizada anterior
+
+El archivo [prueba_clon.json](prueba_clon.json) conserva los controles
+automatizados de una prueba historica sobre el commit
+`3b4176e29d077227f53008b8c93fbb3c686724b7`.
+
+La prueba posterior a la correccion de Docker corresponde al commit
+`946aafe351600fbbe7a244ac4469f006a46da875`
+y se documenta en este archivo.
+
+Ambas pruebas reprodujeron los mismos valores de ATTR.
+El JSON historico se conserva sin alterar sus datos.
