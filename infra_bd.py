@@ -58,7 +58,7 @@ class BaseDocker:
                 raise RuntimeError(f"El contenedor {self.nombre} utiliza otra imagen. Define RUTEO_CONTENEDOR y RUTEO_VOLUMEN para una instancia de esta entrega.")
             if ejecutando != "true":
                 self.ejecutar(["start", self.nombre], check=True, timeout=30)
-        elif "No such" in inspeccion.stderr:
+        elif "no such" in inspeccion.stderr.lower():
             clave = self.parametros.get("password") or os.environ.get("PGPASSWORD")
             if not clave:
                 raise ValueError("La conexion debe indicar la clave local para inicializar PostgreSQL.")
