@@ -43,5 +43,14 @@ interpretarse automaticamente como la longitud de fibra entregada en este
 archivo. Se debe declarar la cobertura parcial del conjunto utilizado:
 https://yafun.nic.cl/mapas/recorrido-yafun/
 
-Los resultados con el conjunto ampliado deberan calcularse y documentarse
-despues de integrar el inventario final de nodos.
+## Relación con los resultados finales y aclaración 
+
+Este documento conserva los resultados de una etapa preliminar del proyecto, en la que se evaluaron únicamente 15 accesos clave asociados a instalaciones de PeeringDB.
+
+En esa etapa, el ATTR inicial fue de 0,057142857 (5,71 %), correspondiente a 6 pares conectados de 105 posibles.
+
+Posteriormente, el inventario se amplió incorporando referencias de aterrizajes submarinos, IXP/PIT y ramificaciones troncales. El conjunto definitivo comprende 189 accesos distintos, con 1.163 pares conectados de 17.766 posibles, obteniéndose un ATTR inicial de 0,065462119 (6,55 %).
+
+**El valor de 5,71 % corresponde exclusivamente al diagnóstico preliminar y no debe utilizarse como resultado final de la entrega.**
+
+Los resultados oficiales del proyecto se encuentran en `INFORME.md` y `resultados/resumen.json`. El presente documento se conserva como evidencia de la evolución metodológica del trabajo.
