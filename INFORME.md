@@ -1,4 +1,4 @@
-# Conectividad de la red de fibra observada ante el sismo del Maule
+# Informe
 
 En 189 accesos del catastro, la probabilidad media de conexión entre dos accesos pasa de 6,55 % en operación a 4,71 % bajo el modelo sísmico. La diferencia es de -1,84 puntos porcentuales.
 
